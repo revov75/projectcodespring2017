@@ -1,0 +1,165 @@
+h1 {
+    color:#d2691e;
+    font-size:70px;
+    text-align:right;
+    font-family: Georgia, "Times New Roman";
+    margin: 10px 10px 10px 10px;
+    border: 15px solid rgba(178, 171, 0, 0.1 );
+    padding: 50px 50px 50px 50px;
+    
+}
+    
+
+
+h2, h3 {
+    background-color: purple;
+    color: yellow ;
+    font-family: cursive;
+    font-size: 25px;
+}
+
+/*body {
+    background-image: url("../images/blc.jpg");
+}*/
+
+.odd {
+    background-color: #ff0000;
+    text-align: center;
+}
+
+.even {
+    color: #ff0000;
+    background-color: #000000;
+    text-align: right;
+}
+
+.large {
+    font-size: 45px;
+}
+
+.small {
+    font-size: 20px;
+}
+
+#bm1 {
+  font-family: "Merriweather", serif;
+  font-size: 32px;
+  background-color: bisque;
+  padding: 5px 0 5px 15px;
+  border: coral solid 2px;
+}
+
+/*This holds the two smaller boxes. note the padding. try changing it */
+.big-box {
+  background-color: lightblue;
+  padding:0px 10px;
+  text-align:center;
+}
+
+/*try adding padding and watch what happens to the width of the block */
+.little-box {
+  background-color: aquamarine;
+  display: inline-block;
+  padding:25px;
+  margin:10px;
+  
+}
+
+/*try modifying this extra margin */
+.extra-margin {
+  margin-left: 135px;
+  border: coral solid 4px;
+}
+
+footer {
+  background-color: burlywood;
+  text-align: right;
+  /* if you don't like shorthand, you can always specify individual directions for padding or margin */
+  margin-top:85px;
+  padding-top:35px;
+  padding-right: 15px;
+  
+}
+
+#navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.navitems {
+  display:inline-block;
+}
+
+.box1 {
+
+  display: inline-block;
+  background-color: blue;
+  width: 100px;
+  height: 100px;
+  margin: 1em;
+  border-radius: 15%;
+  color: orange;
+}
+
+.box2 {
+  display: inline-block;
+  background-color: red;
+  width: 100px;
+  height: 100px;
+  margin: 1em;
+  border-radius: 15%;
+  color: green;
+}
+
+
+.container {
+font-family: Calibri,Arial, sans-serif;
+
+}
+
+.centermytext {text-align: center;}
+
+
+.redchunk {
+  width:200px;
+  height:100px;
+  background-color:red;
+  margin: 0 auto;
+
+}
+
+.bluechunk {
+  width:60px;
+  height:60px;
+  background-color:blue;
+  display: inline-block;
+  margin: 25px
+}
+
+.centermytext {
+    text-align: center;
+    
+}
+
+.green {
+  background-color: #19FC00;
+  width: 125px;
+  height: 125px;
+  border: 2px black solid;
+
+}
+
+.red  {
+  background-color: #DB2114;
+  width: 400px;
+
+  border: 2px black solid;
+}
+
+#sunset {
+    width: 50%;
+  
+}
+
